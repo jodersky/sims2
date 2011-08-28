@@ -7,10 +7,10 @@
 
 package sims.math
 
-/**An x3-axis aligned vector. Since SIMS is in 2D, 3D vectors are only used as a convenience to simulate operations that only exist
+/**A z-axis aligned vector. Since SiMS is in 2D, 3D vectors are only used as a convenience to simulate operations that only exist
  * in three dimensions such as the cross product.*/
-case class PseudoVector3D(x3: Double) {
+case class PseudoVector3D(z: Double) {
 	
-	def cross(v: Vector2D): Vector2D = v.leftNormal * x3
+	def cross(v: Vector2D): Vector2D = v.leftNormal * z
 	
 }
