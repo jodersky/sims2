@@ -42,7 +42,7 @@ case class Vector2D(x: Double, y: Double) {
   
   /** Cross product with an imaginary vector parallel to the z-axis.
     * Its magnitude is given by `|p|` and its direction `sign(p)`. */
-  def cross(p: PseudoVector3D): Vector2D = rightNormal * p.x3
+  def cross(p: PseudoVector3D): Vector2D = rightNormal * p.z
   
   /** Magnitude of this vector. */
   lazy val length: Double = math.sqrt(lengthSquare)
