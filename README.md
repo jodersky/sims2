@@ -9,6 +9,3 @@ It is a complete re-write of SiMS, hosted at http://sourceforge.net/projects/sim
   * constraint simulation
   * extensible architecture
 
----
-
-SiMS2 is currently in development and no stable release is available.
